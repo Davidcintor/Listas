@@ -1,6 +1,5 @@
 ﻿using ListasSimplementeLigadas;
 
-
 Lista miLista = new Lista();
 miLista.Agregar("cero");
 miLista.Agregar("uno");

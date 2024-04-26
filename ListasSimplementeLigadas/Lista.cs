@@ -33,7 +33,6 @@
             while (nodoActual.Enlace != null)
             {
                 nodoActual = nodoActual.Enlace;
-                //elementos = elementos + nodoActual.Valor + Environment.NewLine;
                 elementos += $"{nodoActual.Valor}\n";
             }
 
@@ -51,7 +50,6 @@
             Nodo nodoNuevo = new Nodo(valor);
             nodoActual.Enlace = nodoNuevo;
         }
-
         public Nodo Buscar(string valor)
         {
             if (EstaVacio() == false)
