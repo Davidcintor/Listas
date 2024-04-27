@@ -24,6 +24,7 @@
         public void Vaciar()
         {
             _nodoInicial.EnlaceSiguiente = null;
+            Console.WriteLine("Lista Vacia");
         }
 
         public string Recorrer()

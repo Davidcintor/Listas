@@ -2,6 +2,7 @@
 {
     public class Nodos
     {
+        //propiedades
         public string Valor { get; set; }
         public Nodos EnlaceAnterior { get; set; }
         public Nodos EnlaceSiguiente { get; set; }

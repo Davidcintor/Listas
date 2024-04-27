@@ -33,4 +33,9 @@ miLista.Borrar("uno");
 elementos = miLista.Recorrer();
 Console.WriteLine(elementos);
 
+Console.WriteLine();
+miLista.Vaciar();
+elementos = miLista.Recorrer();
+Console.WriteLine(elementos);
+
 
